@@ -1,0 +1,6 @@
+framework module Pods_HeroDatabase {
+  umbrella header "Pods-HeroDatabase-umbrella.h"
+
+  export *
+  module * { export * }
+}

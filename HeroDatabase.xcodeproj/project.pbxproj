@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341A520C266691DB0012DAF7 /* TableXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A520B266691DB0012DAF7 /* TableXibViewController.swift */; };
+		341A5210266692B90012DAF7 /* XIbTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A520E266692B90012DAF7 /* XIbTableViewCell.swift */; };
+		341A5211266692B90012DAF7 /* XIbTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341A520F266692B90012DAF7 /* XIbTableViewCell.xib */; };
+		341A52192666980F0012DAF7 /* XibImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A52172666980F0012DAF7 /* XibImageTableViewCell.swift */; };
+		341A521A2666980F0012DAF7 /* XibImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341A52182666980F0012DAF7 /* XibImageTableViewCell.xib */; };
+		341A52202666D6CA0012DAF7 /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341A521F2666D6CA0012DAF7 /* TableView.storyboard */; };
+		341A52232666D7F80012DAF7 /* Heroes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341A52222666D7F80012DAF7 /* Heroes.storyboard */; };
+		341A52272667441F0012DAF7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341A52262667441F0012DAF7 /* Login.storyboard */; };
 		34E73B2325F9E9CD007CB9B1 /* PowerstatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E73B2225F9E9CD007CB9B1 /* PowerstatsVC.swift */; };
 		34E73B2625F9F901007CB9B1 /* BiographyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E73B2525F9F901007CB9B1 /* BiographyVC.swift */; };
 		34F9437325F728A00018F370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F9437225F728A00018F370 /* AppDelegate.swift */; };
@@ -42,6 +50,14 @@
 
 /* Begin PBXFileReference section */
 		1A27A67870B1BF52EC0C9740 /* Pods-HeroDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroDatabase.debug.xcconfig"; path = "Target Support Files/Pods-HeroDatabase/Pods-HeroDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		341A520B266691DB0012DAF7 /* TableXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableXibViewController.swift; sourceTree = "<group>"; };
+		341A520E266692B90012DAF7 /* XIbTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIbTableViewCell.swift; sourceTree = "<group>"; };
+		341A520F266692B90012DAF7 /* XIbTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIbTableViewCell.xib; sourceTree = "<group>"; };
+		341A52172666980F0012DAF7 /* XibImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibImageTableViewCell.swift; sourceTree = "<group>"; };
+		341A52182666980F0012DAF7 /* XibImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibImageTableViewCell.xib; sourceTree = "<group>"; };
+		341A521F2666D6CA0012DAF7 /* TableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableView.storyboard; sourceTree = "<group>"; };
+		341A52222666D7F80012DAF7 /* Heroes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Heroes.storyboard; sourceTree = "<group>"; };
+		341A52262667441F0012DAF7 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		34E73B2225F9E9CD007CB9B1 /* PowerstatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerstatsVC.swift; sourceTree = "<group>"; };
 		34E73B2525F9F901007CB9B1 /* BiographyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiographyVC.swift; sourceTree = "<group>"; };
 		34F9436F25F728A00018F370 /* HeroDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +106,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341A521C26669FB20012DAF7 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				341A520E266692B90012DAF7 /* XIbTableViewCell.swift */,
+				341A520F266692B90012DAF7 /* XIbTableViewCell.xib */,
+				341A52172666980F0012DAF7 /* XibImageTableViewCell.swift */,
+				341A52182666980F0012DAF7 /* XibImageTableViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		341A521E2666D69D0012DAF7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				341A521F2666D6CA0012DAF7 /* TableView.storyboard */,
+				341A52222666D7F80012DAF7 /* Heroes.storyboard */,
+				341A52262667441F0012DAF7 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		34F9436625F728A00018F370 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +148,7 @@
 		34F9437125F728A00018F370 /* HeroDatabase */ = {
 			isa = PBXGroup;
 			children = (
+				341A521E2666D69D0012DAF7 /* Storyboards */,
 				34F943EC25F9CCD90018F370 /* Helpers */,
 				34F9438D25F7302A0018F370 /* Models */,
 				34F9438C25F7301E0018F370 /*  Views */,
@@ -133,6 +171,7 @@
 				34F943F425F9D6950018F370 /* DetailHeroVC.swift */,
 				34E73B2225F9E9CD007CB9B1 /* PowerstatsVC.swift */,
 				34E73B2525F9F901007CB9B1 /* BiographyVC.swift */,
+				341A520B266691DB0012DAF7 /* TableXibViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -140,6 +179,7 @@
 		34F9438C25F7301E0018F370 /*  Views */ = {
 			isa = PBXGroup;
 			children = (
+				341A521C26669FB20012DAF7 /* Xib */,
 				34F943E025F89B200018F370 /* HeroesTVCell.swift */,
 				34F943E325F8A0370018F370 /* HeroCVCell.swift */,
 				34F943E925F9C2D90018F370 /* HeroTVCell.swift */,
@@ -262,9 +302,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341A52272667441F0012DAF7 /* Login.storyboard in Resources */,
+				341A52202666D6CA0012DAF7 /* TableView.storyboard in Resources */,
 				34F9437F25F728A20018F370 /* LaunchScreen.storyboard in Resources */,
 				34F9437C25F728A20018F370 /* Assets.xcassets in Resources */,
 				34F9437A25F728A00018F370 /* Main.storyboard in Resources */,
+				341A521A2666980F0012DAF7 /* XibImageTableViewCell.xib in Resources */,
+				341A52232666D7F80012DAF7 /* Heroes.storyboard in Resources */,
+				341A5211266692B90012DAF7 /* XIbTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +371,8 @@
 				34F943F225F9CEEA0018F370 /* Search.swift in Sources */,
 				34F943E425F8A0370018F370 /* HeroCVCell.swift in Sources */,
 				34F9437325F728A00018F370 /* AppDelegate.swift in Sources */,
+				341A520C266691DB0012DAF7 /* TableXibViewController.swift in Sources */,
+				341A5210266692B90012DAF7 /* XIbTableViewCell.swift in Sources */,
 				34F943EA25F9C2D90018F370 /* HeroTVCell.swift in Sources */,
 				34F9438A25F7299F0018F370 /* HeroesVC.swift in Sources */,
 				34F943FC25F9DE770018F370 /* Heplers+UIColor.swift in Sources */,
@@ -334,6 +381,7 @@
 				34F9440425F9E34A0018F370 /* InfoTVCell.swift in Sources */,
 				34F943BC25F750280018F370 /* API.swift in Sources */,
 				34F943C325F757780018F370 /* AlertController.swift in Sources */,
+				341A52192666980F0012DAF7 /* XibImageTableViewCell.swift in Sources */,
 				34F943F825F9DAA50018F370 /* Helpers+UIView.swift in Sources */,
 				34E73B2325F9E9CD007CB9B1 /* PowerstatsVC.swift in Sources */,
 				34F943C625F758230018F370 /* ResponseDetail.swift in Sources */,
